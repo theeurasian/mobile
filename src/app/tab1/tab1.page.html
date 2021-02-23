@@ -1,17 +1,25 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
+    <ion-title class="dc font text-large">
+      The Eurasian
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <div class="full-height cy cx">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title class="ion-text-center bold">Выпуск № 9</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-img class="img-height" [src]="p.lastPublishIMG"></ion-img>
+        <div class="cx ion-margin">
+          <ion-button class="bold eurasian-color" color="none" size="large" (click)="openLatestPublish()">ПРОСМОТРЕТЬ</ion-button>
+        </div>
+        <div class="ion-text-center bold">нажмите чтобы просмотреть</div>
+        <div class="ion-text-center bold">новый выпуск журнала</div>
+        <div class="ion-text-center bold">The Eurasian</div>
+      </ion-card-content>
+    </ion-card>
+  </div>
 </ion-content>

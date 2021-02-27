@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {PropsService} from '../props.service';
+import {NavController} from '@ionic/angular';
 
 @Component({
   selector: 'app-tab2',
@@ -7,6 +9,10 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
-  constructor() {}
+  constructor(public p: PropsService, public nav: NavController) {}
 
+  openPublish(publish: number) {
+    this.p.pdfReading = publish;
+    this.nav.navigateForward('/pdf-reader');
+  }
 }

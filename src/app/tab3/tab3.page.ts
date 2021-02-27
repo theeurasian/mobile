@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {PropsService} from '../props.service';
+import {ToastController} from '@ionic/angular';
 
 @Component({
   selector: 'app-tab3',
@@ -6,7 +8,16 @@ import { Component } from '@angular/core';
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page {
+  text = '';
 
-  constructor() {}
+  constructor(public props: PropsService, public toastController: ToastController) {}
 
+  sendEmail() {
+    this.props.sendEmail(this.text);
+    this.text = '';
+    this.toastController.create({
+      message: 'Письмо успешно отправлено.',
+      duration: 2000
+    }).then(toast => toast.present());
+  }
 }

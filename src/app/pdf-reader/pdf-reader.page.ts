@@ -18,10 +18,10 @@ export class PdfReaderPage implements OnInit {
     this.images = this.getImages();
   }
   getImages(){
-    const pagesLocation = 'assets/publishes/' + this.p.pdfReading + '/pages/';
+    const pagesLocation = 'assets/publishes/' + this.p.pdfReading + '/pages/Page';
     const result = [];
     for (let x = 1; x <= this.p.getPagesCount(this.p.pdfReading); x++){
-      result.push(pagesLocation + this.p.addLeftZeros(x) + '.jpg');
+      result.push(pagesLocation + x + '.jpg');
     }
     return result;
   }

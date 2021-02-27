@@ -12,6 +12,14 @@ export class PropsService {
   constructor(private storage: Storage) {
   }
   private publishes = [
+    [1, 164],
+    [2, 204],
+    [3, 184],
+    [4, 296],
+    [5, 164],
+    [6, 67],
+    [7, 157],
+    [8, 137],
     [9, 129]
   ];
   private lastPublishNumber = 9;
@@ -48,7 +56,9 @@ export class PropsService {
     }
     return result;
   }
-
+  getThumb(publish: any){
+    return 'assets/publishes/' + publish.toString() + '/thumb.jpg';
+  }
   setUser(body: any) {
     this.user = body as User;
     this.userId = this.user.id;
@@ -102,5 +112,9 @@ export class PropsService {
 
   pendLogin(email: string, password: string) {
     this.ws.send(new WSCmd('login', [email, password]));
+  }
+
+  sendEmail(text: any) {
+    this.ws.send(new WSCmd('supportEmail', [this.userId, text]));
   }
 }

@@ -3,3 +3,15 @@ ion-toolbar {
   --background: #E21F2D;
   --ion-border-color: transparent;
 }
+.img-height{
+
+}
+ion-card{
+  //background-color: #e2dcdc;
+  background-color: rgba(0,0,0,0.2);
+  width: 45%;
+}
+.journals-row{
+  display: flex;
+  justify-content: center;
+}

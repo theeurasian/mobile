@@ -13,7 +13,7 @@ export class Tab1Page {
   }
 
   openLatestPublish() {
-    this.p.pdfReading = 9;
+    this.p.pdfReading = this.p.lastPublishNumber;
     this.nav.navigateForward('/pdf-reader');
   }
 }

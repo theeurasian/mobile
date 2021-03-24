@@ -15,10 +15,7 @@ export class WebsocketService {
   constructor(
     private router: Router,
     private props: PropsService,
-  )
-  {
-    this.init();
-  }
+  ){}
   isOpen(){
     return this.established;
   }
@@ -72,9 +69,7 @@ export class WebsocketService {
     };
   }
 
-  private invoke(){
-    this.props.init(this);
-  }
+  private invoke(){}
 
   public send(cmd: WSCmd){
     this.ws.send(cmd.toJson());

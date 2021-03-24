@@ -10,10 +10,10 @@ import {ToastController} from '@ionic/angular';
 export class Tab3Page {
   text = '';
 
-  constructor(public props: PropsService, public toastController: ToastController) {}
+  constructor(public p: PropsService, public toastController: ToastController) {}
 
   sendEmail() {
-    this.props.sendEmail(this.text);
+    this.p.sendEmail(this.text);
     this.text = '';
     this.toastController.create({
       message: 'Письмо успешно отправлено.',

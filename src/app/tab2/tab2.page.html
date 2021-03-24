@@ -3,115 +3,131 @@
     <ion-title class="dc font text-large">
       The Eurasian
     </ion-title>
+    <div class="lang">
+      <ion-select (ionChange)="p.setLang(p.lang)" [selectedText]="p.getShortLangName()" [(ngModel)]="p.lang" [okText]="p.tr('OK')" [cancelText]="p.tr('CANCEL')">
+        <ion-select-option *ngFor="let lang of p.languages" [value]="lang[0]">{{lang[1]}}</ion-select-option>
+      </ion-select>
+    </div>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <div class="journals-row">
-    <ion-card>
+    <ion-card (click)="openPublish(1)">
       <ion-card-header>
-        <ion-card-title class="ion-text-center bold">Выпуск № 1</ion-card-title>
+        <ion-card-title class="ion-text-center bold">{{p.tr('Issue')}} № 1</ion-card-title>
       </ion-card-header>
       <ion-card-content>
         <ion-img class="img-height" [src]="p.getThumb(1)"></ion-img>
         <div class="cx ion-margin">
-          <ion-button class="bold eurasian-color" color="none" (click)="openPublish(1)">ПРОСМОТР</ion-button>
+          <ion-button class="bold eurasian-color" color="none">{{p.tr('READ')}}</ion-button>
         </div>
       </ion-card-content>
     </ion-card>
-    <ion-card>
+    <ion-card (click)="openPublish(2)">
       <ion-card-header>
-        <ion-card-title class="ion-text-center bold">Выпуск № 2</ion-card-title>
+        <ion-card-title class="ion-text-center bold">{{p.tr('Issue')}} № 2</ion-card-title>
       </ion-card-header>
       <ion-card-content>
         <ion-img class="img-height" [src]="p.getThumb(2)"></ion-img>
         <div class="cx ion-margin">
-          <ion-button class="bold eurasian-color" color="none" (click)="openPublish(2)">ПРОСМОТР</ion-button>
+          <ion-button class="bold eurasian-color" color="none">{{p.tr('READ')}}</ion-button>
         </div>
       </ion-card-content>
     </ion-card>
   </div>
   <div class="journals-row">
-    <ion-card>
+    <ion-card (click)="openPublish(3)">
       <ion-card-header>
-        <ion-card-title class="ion-text-center bold">Выпуск № 3</ion-card-title>
+        <ion-card-title class="ion-text-center bold">{{p.tr('Issue')}} № 3</ion-card-title>
       </ion-card-header>
       <ion-card-content>
         <ion-img class="img-height" [src]="p.getThumb(3)"></ion-img>
         <div class="cx ion-margin">
-          <ion-button class="bold eurasian-color" color="none" (click)="openPublish(3)">ПРОСМОТР</ion-button>
+          <ion-button class="bold eurasian-color" color="none">{{p.tr('READ')}}</ion-button>
         </div>
       </ion-card-content>
     </ion-card>
-    <ion-card>
+    <ion-card (click)="openPublish(4)">
       <ion-card-header>
-        <ion-card-title class="ion-text-center bold">Выпуск № 4</ion-card-title>
+        <ion-card-title class="ion-text-center bold">{{p.tr('Issue')}} № 4</ion-card-title>
       </ion-card-header>
       <ion-card-content>
         <ion-img class="img-height" [src]="p.getThumb(4)"></ion-img>
         <div class="cx ion-margin">
-          <ion-button class="bold eurasian-color" color="none"(click)="openPublish(4)">ПРОСМОТР</ion-button>
+          <ion-button class="bold eurasian-color" color="none">{{p.tr('READ')}}</ion-button>
         </div>
       </ion-card-content>
     </ion-card>
   </div>
   <div class="journals-row">
-    <ion-card>
+    <ion-card (click)="openPublish(5)">
       <ion-card-header>
-        <ion-card-title class="ion-text-center bold">Выпуск № 5</ion-card-title>
+        <ion-card-title class="ion-text-center bold">{{p.tr('Issue')}} № 5</ion-card-title>
       </ion-card-header>
       <ion-card-content>
         <ion-img class="img-height" [src]="p.getThumb(5)"></ion-img>
         <div class="cx ion-margin">
-          <ion-button class="bold eurasian-color" color="none" (click)="openPublish(5)">ПРОСМОТР</ion-button>
+          <ion-button class="bold eurasian-color" color="none">{{p.tr('READ')}}</ion-button>
         </div>
       </ion-card-content>
     </ion-card>
-    <ion-card>
+    <ion-card (click)="openPublish(6)">
       <ion-card-header>
-        <ion-card-title class="ion-text-center bold">Выпуск № 6</ion-card-title>
+        <ion-card-title class="ion-text-center bold">{{p.tr('Issue')}} № 6</ion-card-title>
       </ion-card-header>
       <ion-card-content>
         <ion-img class="img-height" [src]="p.getThumb(6)"></ion-img>
         <div class="cx ion-margin">
-          <ion-button class="bold eurasian-color" color="none"(click)="openPublish(6)">ПРОСМОТР</ion-button>
+          <ion-button class="bold eurasian-color" color="none">{{p.tr('READ')}}</ion-button>
         </div>
       </ion-card-content>
     </ion-card>
   </div>
   <div class="journals-row">
-    <ion-card>
+    <ion-card (click)="openPublish(7)">
       <ion-card-header>
-        <ion-card-title class="ion-text-center bold">Выпуск № 7</ion-card-title>
+        <ion-card-title class="ion-text-center bold">{{p.tr('Issue')}} № 7</ion-card-title>
       </ion-card-header>
       <ion-card-content>
         <ion-img class="img-height" [src]="p.getThumb(7)"></ion-img>
         <div class="cx ion-margin">
-          <ion-button class="bold eurasian-color" color="none" (click)="openPublish(7)">ПРОСМОТР</ion-button>
+          <ion-button class="bold eurasian-color" color="none">{{p.tr('READ')}}</ion-button>
         </div>
       </ion-card-content>
     </ion-card>
-    <ion-card>
+    <ion-card (click)="openPublish(8)">
       <ion-card-header>
-        <ion-card-title class="ion-text-center bold">Выпуск № 8</ion-card-title>
+        <ion-card-title class="ion-text-center bold">{{p.tr('Issue')}} № 8</ion-card-title>
       </ion-card-header>
       <ion-card-content>
         <ion-img class="img-height" [src]="p.getThumb(8)"></ion-img>
         <div class="cx ion-margin">
-          <ion-button class="bold eurasian-color" color="none"(click)="openPublish(8)">ПРОСМОТР</ion-button>
+          <ion-button class="bold eurasian-color" color="none">{{p.tr('READ')}}</ion-button>
         </div>
       </ion-card-content>
     </ion-card>
   </div>
   <div class="journals-row">
-    <ion-card>
+    <ion-card (click)="openPublish(9)">
       <ion-card-header>
-        <ion-card-title class="ion-text-center bold">Выпуск № 9</ion-card-title>
+        <ion-card-title class="ion-text-center bold">{{p.tr('Issue')}} № 9</ion-card-title>
       </ion-card-header>
       <ion-card-content>
         <ion-img class="img-height" [src]="p.getThumb(9)"></ion-img>
         <div class="cx ion-margin">
-          <ion-button class="bold eurasian-color" color="none" (click)="openPublish(9)">ПРОСМОТР</ion-button>
+          <ion-button class="bold eurasian-color" color="none">{{p.tr('READ')}}</ion-button>
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card (click)="openPublish(10)">
+      <ion-card-header>
+        <ion-card-title class="ion-text-center bold">{{p.tr('Issue')}} № 10</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-img class="img-height" [src]="p.getThumb(10)"></ion-img>
+        <div class="cx ion-margin">
+          <ion-button class="bold eurasian-color" color="none">{{p.tr('READ')}}</ion-button>
         </div>
       </ion-card-content>
     </ion-card>

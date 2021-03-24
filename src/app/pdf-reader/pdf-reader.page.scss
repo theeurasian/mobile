@@ -3,3 +3,62 @@ ion-toolbar {
   --background: #E21F2D;
   --ion-border-color: transparent;
 }
+.page-mask{
+  position: absolute;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  width: calc(100% - 10px);
+  top: 0;
+  left: 0;
+}
+.image{
+  display: flex;
+  justify-content: center;
+}
+.right-page-mask-e{
+  display: grid;
+  grid-template-rows: 55% 25% !important;;
+  grid-template-columns: 10% 27% 26% 26% !important;;
+  height: 100%;
+}
+.right-page-mask{
+  display: grid;
+  grid-template-rows: 63% 25%;
+  grid-template-columns: 10% 27% 26% 26%;
+  height: 100%;
+  width: 100%;
+}
+.right-page-mask-9{
+  display: grid;
+  grid-template-rows: 60% 30%;
+  grid-template-columns: 30% 40%;
+  height: 100%;
+}
+.left-page-mask{
+  height: 100%;
+  width: 100%;
+}
+.sub-mask-pbp{
+  display: grid;
+  grid-template-rows: 70% 15%;
+  grid-template-columns: 18% 16%;
+  height: 100%;
+}
+.sub-mask-promo{
+  display: grid;
+  grid-template-rows: 81% 12%;
+  grid-template-columns: 45% 16%;
+  height: 100%;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.pbp-mask-promo-9{
+  display: grid;
+  grid-template-rows: 38% 20%;
+  grid-template-columns: 38% 25%;
+  height: 100%;
+}
+

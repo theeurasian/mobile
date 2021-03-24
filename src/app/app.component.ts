@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {WebsocketService} from './websocket.service';
+import {PropsService} from './props.service';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +8,7 @@ import {WebsocketService} from './websocket.service';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor(private ws: WebsocketService) {}
+  constructor(private p: PropsService) {
+    p.init();
+  }
 }

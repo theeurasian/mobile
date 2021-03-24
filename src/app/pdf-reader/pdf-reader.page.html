@@ -2,15 +2,51 @@
   <ion-toolbar>
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
-      <ion-back-button text="Назад" class="text-white"></ion-back-button>
+      <ion-back-button [text]="p.tr('Go Back')" class="text-white"></ion-back-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
 <ion-content>
   <pinch-zoom [limit-zoom]="10">
     <ion-list>
-      <ion-item *ngFor="let img of images">
+      <ion-item class="image" *ngFor="let img of images; let ind = index">
         <ion-img [src]="img"></ion-img>
+
+        <div class="page-mask" *ngIf="isQR(9, ind)">
+          <div class="left-page-mask">
+
+          </div>
+          <div class="sub-mask-promo" *ngIf="(ind + 1) == 2">
+            <div></div><div></div><div></div>
+            <div class="cursor-pointer" (click)="openPromo()"></div>
+          </div>
+          <div class="pbp-mask-promo-9" *ngIf="(ind + 1) == 117">
+            <div></div><div></div><div></div>
+            <div class="cursor-pointer" (click)="openPBP()"></div>
+          </div>
+          <div class="right-page-mask-9" *ngIf="!hideMask(ind)">
+            <div></div><div></div><div></div>
+            <div class="cursor-pointer" (click)="openQr9(ind)"></div>
+          </div>
+        </div>
+        <div class="page-mask" *ngIf="isQR(10, ind)">
+          <div class="left-page-mask">
+            <div class="sub-mask-pbp" *ngIf="ind == 58">
+              <div></div><div></div><div></div>
+              <div class="cursor-pointer" (click)="openPBP()"></div>
+            </div>
+          </div>
+          <div class="sub-mask-promo" *ngIf="(ind + 1) == 2">
+            <div></div><div></div><div></div>
+            <div class="cursor-pointer" (click)="openPromo()"></div>
+          </div>
+          <div class="right-page-mask" [class.right-page-mask-e]="isQRE(ind)" *ngIf="!hideMask(ind)">
+            <div></div><div></div><div></div><div></div><div></div>
+            <div class="cursor-pointer" (click)="openQr(ind,'ru')"></div>
+            <div class="cursor-pointer" (click)="openQr(ind,'cn')"></div>
+            <div class="cursor-pointer" (click)="openQr(ind,'en')"></div>
+          </div>
+        </div>
       </ion-item>
     </ion-list>
   </pinch-zoom>

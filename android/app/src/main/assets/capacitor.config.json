@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "android",
+  "appId": "press.eurasian.the",
+  "appName": "The Eurasian",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",

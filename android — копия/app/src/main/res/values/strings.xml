@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">The Eurasian</string>
-    <string name="title_activity_main">The Eurasian</string>
-    <string name="package_name">press.eurasian.the</string>
-    <string name="custom_url_scheme">press.eurasian.the</string>
-</resources>

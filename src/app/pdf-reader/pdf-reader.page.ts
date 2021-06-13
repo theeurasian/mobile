@@ -18,7 +18,8 @@ export class PdfReaderPage implements OnInit {
     [],
     [3, 4, 32, 35, 87, 107, 114],
     [2, 3, 15, 21, 44, 94, 102, 113, 117],
-    [2, 3, 11, 18, 37, 44, 49, 59, 67, 74, 82, 102]
+    [2, 3, 11, 18, 37, 44, 49, 59, 67, 74, 82, 102],
+    [1, 2, 3, 4, 6, 8, 10, 11, 32, 42, 46, 75, 83, 103, 110, 111, 115, 125, 134, 135]
   ];
   images = [];
   sliderOpt = {
@@ -52,6 +53,263 @@ export class PdfReaderPage implements OnInit {
   openQr(ind: number, lang: string){
     const page = ind + 1;
     switch (this.p.pdfReading){
+      case 11: {
+        switch (page) {
+          case 3: {
+            switch (lang) {
+              case 'ru': {
+                window.open('https://я.tv/#/watch?video=snr24_ru', '_blank');
+                break;
+              }
+              case 'cn': {
+                window.open('https://я.tv/#/watch?video=snr24_cn', '_blank');
+                break;
+              }
+              case 'en': {
+                window.open('https://я.tv/#/watch?video=snr24_en', '_blank');
+                break;
+              }
+            }
+            break;
+          }
+          case 4: {
+            switch (lang) {
+              case 'cn': {
+                window.open('https://eurasian.press/#/g-cn', '_blank');
+                break;
+              }
+              case 'en': {
+                window.open('https://eurasian.press/#/g-en', '_blank');
+                break;
+              }
+            }
+            break;
+          }
+          case 6: {
+            switch (lang) {
+              case 'ru': {
+                window.open('https://xn--41a.tv/#/watch?video=allrum_ru', '_blank');
+                break;
+              }
+              case 'cn': {
+                window.open('https://xn--41a.tv/#/watch?video=allrum_cn', '_blank');
+                break;
+              }
+              case 'en': {
+                window.open('https://xn--41a.tv/#/watch?video=allrum_en', '_blank');
+                break;
+              }
+            }
+            break;
+          }
+          case 8: {
+            switch (lang) {
+              case 'ru': {
+                window.open('http://я.tv/#/watch?video=robots_ru', '_blank');
+                break;
+              }
+              case 'cn': {
+                window.open('http://я.tv/#/watch?video=robots_cn', '_blank');
+                break;
+              }
+              case 'en': {
+                window.open('http://я.tv/#/watch?video=robots_en', '_blank');
+                break;
+              }
+            }
+            break;
+          }
+          case 9: {
+            switch (lang) {
+              case 'ru': {
+                window.open('http://я.tv/#/watch?video=robots_ru', '_blank');
+                break;
+              }
+              case 'cn': {
+                window.open('http://я.tv/#/watch?video=robots_cn', '_blank');
+                break;
+              }
+              case 'en': {
+                window.open('http://я.tv/#/watch?video=robots_en', '_blank');
+                break;
+              }
+            }
+            break;
+          }
+          case 10: {
+            switch (lang) {
+              case 'ru': {
+                window.open('https://я.tv/#/watch?video=mindf_ru', '_blank');
+                break;
+              }
+              case 'cn': {
+                window.open('https://я.tv/#/watch?video=mindf_cn', '_blank');
+                break;
+              }
+              case 'en': {
+                window.open('https://я.tv/#/watch?video=mindf_en', '_blank');
+                break;
+              }
+            }
+            break;
+          }
+          case 32: {
+            switch (lang) {
+              case 'ru': {
+                window.open('https://я.tv/#/watch?video=kk_ru', '_blank');
+                break;
+              }
+              case 'cn': {
+                window.open('https://я.tv/#/watch?video=kk_cn', '_blank');
+                break;
+              }
+              case 'en': {
+                window.open('https://я.tv/#/watch?video=kk_en', '_blank');
+                break;
+              }
+            }
+            break;
+          }
+          case 42: {
+            switch (lang) {
+              case 'ru': {
+                window.open('https://я.tv/#/watch?video=ww1_ru', '_blank');
+                break;
+              }
+              case 'cn': {
+                window.open('https://я.tv/#/watch?video=ww1_cn', '_blank');
+                break;
+              }
+              case 'en': {
+                window.open('https://я.tv/#/watch?video=ww1_en', '_blank');
+                break;
+              }
+            }
+            break;
+          }
+          case 46: {
+            switch (lang) {
+              case 'ru': {
+                window.open('https://я.tv/#/watch?video=ww2_ru', '_blank');
+                break;
+              }
+              case 'cn': {
+                window.open('https://я.tv/#/watch?video=ww2_cn', '_blank');
+                break;
+              }
+              case 'en': {
+                window.open('https://я.tv/#/watch?video=ww2_en', '_blank');
+                break;
+              }
+            }
+            break;
+          }
+          case 75: {
+            switch (lang) {
+              case 'ru': {
+                window.open('https://я.tv/#/watch?video=ww3_ru', '_blank');
+                break;
+              }
+              case 'cn': {
+                window.open('https://я.tv/#/watch?video=ww3_cn', '_blank');
+                break;
+              }
+              case 'en': {
+                window.open('https://я.tv/#/watch?video=ww3_en', '_blank');
+                break;
+              }
+            }
+            break;
+          }
+          case 83: {
+            switch (lang) {
+              case 'ru': {
+                window.open('https://я.tv/#/watch?video=ww4_ru', '_blank');
+                break;
+              }
+              case 'cn': {
+                window.open('https://я.tv/#/watch?video=ww4_cn', '_blank');
+                break;
+              }
+              case 'en': {
+                window.open('https://я.tv/#/watch?video=ww4_en', '_blank');
+                break;
+              }
+            }
+            break;
+          }
+          case 110: {
+            switch (lang) {
+              case 'ru': {
+                window.open('https://я.tv/#/watch?video=ww5_ru', '_blank');
+                break;
+              }
+              case 'cn': {
+                window.open('https://я.tv/#/watch?video=ww5_cn', '_blank');
+                break;
+              }
+              case 'en': {
+                window.open('https://я.tv/#/watch?video=ww5_en', '_blank');
+                break;
+              }
+            }
+            break;
+          }
+          case 111: {
+            switch (lang) {
+              case 'ru': {
+                window.open('http://я.tv/#/watch?video=galanz_ru', '_blank');
+                break;
+              }
+              case 'cn': {
+                window.open('http://я.tv/#/watch?video=galanz_cn', '_blank');
+                break;
+              }
+              case 'en': {
+                window.open('http://я.tv/#/watch?video=galanz_en', '_blank');
+                break;
+              }
+            }
+            break;
+          }
+          case 115: {
+            switch (lang) {
+              case 'ru': {
+                window.open('https://я.tv/#/watch?video=ww6_ru', '_blank');
+                break;
+              }
+              case 'cn': {
+                window.open('https://я.tv/#/watch?video=ww6_cn', '_blank');
+                break;
+              }
+              case 'en': {
+                window.open('https://я.tv/#/watch?video=ww6_en', '_blank');
+                break;
+              }
+            }
+            break;
+          }
+          case 125: {
+            switch (lang) {
+              case 'ru': {
+                window.open('https://я.tv/#/watch?video=ww7_ru', '_blank');
+                break;
+              }
+              case 'cn': {
+                window.open('https://я.tv/#/watch?video=ww7_cn', '_blank');
+                break;
+              }
+              case 'en': {
+                window.open('https://я.tv/#/watch?video=ww7_en', '_blank');
+                break;
+              }
+            }
+            break;
+          }
+
+        }
+        break;
+      }
       case 10: {
         switch (page) {
           case 3: {
@@ -257,6 +515,7 @@ export class PdfReaderPage implements OnInit {
   hideMask(ind: number) {
     const page = ind + 1;
     const e = [];
+    e.push(this.p.pdfReading === 11 && page === 2);
     e.push(this.p.pdfReading === 10 && page === 2);
     e.push(this.p.pdfReading === 9 && page === 2);
     e.push(this.p.pdfReading === 9 && page === 117);
@@ -295,5 +554,9 @@ export class PdfReaderPage implements OnInit {
         break;
       }
     }
+  }
+
+  openPromoQr(url: string) {
+    window.open(url, '_blank');
   }
 }

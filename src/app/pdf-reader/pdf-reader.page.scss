@@ -40,6 +40,14 @@ ion-toolbar {
   height: 100%;
   width: 100%;
 }
+.l-m{
+  height: 100%;
+  width: 100%;
+}
+.r-m{
+  height: 100%;
+  width: 100%;
+}
 .sub-mask-pbp{
   display: grid;
   grid-template-rows: 70% 15%;
@@ -62,3 +70,69 @@ ion-toolbar {
   height: 100%;
 }
 
+.first-page-promo{
+  display: grid;
+  grid-auto-rows: 87% 11%;
+  grid-template-columns: 15% 27%;
+  height: 100%;
+}
+.second-page-promo{
+  display: grid;
+  grid-template-rows: 81% 12%;
+  grid-template-columns: 45% 16%;
+  height: 100%;
+}
+.left-bottom-3qr{
+  display: grid;
+  grid-template-rows: 90% 8%;
+  grid-template-columns: 4% 8.5% 8% 8%;
+  height: 100%;
+}
+.center-bottom-2qr{
+  display: grid;
+  grid-template-rows: 84% 12%;
+  grid-template-columns: 28% 15% 12% 15%;
+  height: 100%;
+}
+.left-bottom-3qr-1{
+  display: grid;
+  grid-template-rows: 87% 10%;
+  grid-template-columns: 2% 11.5% 11.5% 11.5%;
+  height: 100%;
+}
+.right-bottom-3qr{
+  display: grid;
+  grid-template-rows: 86% 9%;
+  grid-template-columns: 50% 13% 13% 13%;
+  height: 100%;
+}
+.center-bottom-3qr{
+  display: grid;
+  grid-template-rows: 86% 10%;
+  grid-template-columns: 30% 13% 13% 13%;
+  height: 100%;
+}
+.left-bottom-1qr{
+  display: grid;
+  grid-template-rows: 80% 12%;
+  grid-template-columns: 10% 17%;
+  height: 100%;
+}
+.left-bottom-3qr-2{
+  display: grid;
+  grid-template-rows: 87% 10%;
+  grid-template-columns: 2% 11.5% 11.5% 11.5%;
+  height: 100%;
+}
+.right-bottom-1qr{
+  display: grid;
+  grid-template-rows: 87% 11%;
+  grid-template-columns: 81% 14%;
+  height: 100%;
+}
+.left-bottom-1qr-1{
+  display: grid;
+  grid-template-rows: 78% 10%;
+  grid-template-columns: 9% 25%;
+  height: 100%;
+}

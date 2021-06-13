@@ -9,9 +9,12 @@ ion-toolbar {
 ion-card{
   //background-color: #e2dcdc;
   background-color: rgba(0,0,0,0.2);
-  width: 45%;
 }
 .journals-row{
   display: flex;
   justify-content: center;
+}
+.journals-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

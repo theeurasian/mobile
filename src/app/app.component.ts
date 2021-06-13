@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {WebsocketService} from './websocket.service';
 import {PropsService} from './props.service';
 
 @Component({

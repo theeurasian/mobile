@@ -4,12 +4,13 @@ import {User} from './user';
 import {WebsocketService} from './websocket.service';
 import {Verification} from './verification';
 import { Storage } from '@ionic/storage';
+import {HTTP} from '@ionic-native/http/ngx';
 
 @Injectable({
   providedIn: 'root'
 })
 export class PropsService {
-  constructor(private storage: Storage) {
+  constructor(private storage: Storage, private http: HTTP) {
   }
   public rootPublishesSite = 'https://data-eurasian.ru/publishes/';
   public languages = [
@@ -32,13 +33,14 @@ export class PropsService {
     [7, 157],
     [8, 137],
     [9, 129],
-    [10, 111]
+    [10, 111],
+    [11, 135]
   ];
-  lastPublishNumber = 10;
+  lastPublishNumber = 11;
   userId = '';
   user: User = null;
   ws: WebsocketService = null;
-  pdfReading = 0;
+  pdfReading = 11;
   lastPublishIMG = this.rootPublishesSite + this.lastPublishNumber + '/thumb.jpg';
   event = new EventEmitter();
   lang = 'EN';
@@ -51,6 +53,18 @@ export class PropsService {
         this.lang = value;
       }
     });
+    // this.http.get('https://data-eurasian.ru/config.json', {}, {})
+    //   .then(response => {
+    //     console.log(response.data);
+    //     const jsonConfig = JSON.parse(response.data);
+    //     const lastIssue = jsonConfig.lastIssue;
+    //     if (!isNaN(lastIssue)){
+    //       this.lastPublishNumber = lastIssue;
+    //       this.lastPublishIMG = this.rootPublishesSite + this.lastPublishNumber + '/thumb.jpg';
+    //     }
+    //   })
+    //   .catch(error => {
+    //   });
   }
   setLang(lang) {
     this.storage.set('lang', lang);

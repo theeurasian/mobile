@@ -15,4 +15,12 @@ export class Tab2Page {
     this.p.pdfReading = publish;
     this.nav.navigateForward('/pdf-reader');
   }
+
+  getPublishes() {
+    const res = [];
+    for (let x = 1; x <= this.p.lastPublishNumber; x++){
+      res.push(x);
+    }
+    return res;
+  }
 }

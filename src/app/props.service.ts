@@ -34,13 +34,14 @@ export class PropsService {
     [8, 137],
     [9, 129],
     [10, 111],
-    [11, 135]
+    [11, 135],
+    [12, 163]
   ];
-  lastPublishNumber = 11;
+  lastPublishNumber = 12;
   userId = '';
   user: User = null;
   ws: WebsocketService = null;
-  pdfReading = 11;
+  pdfReading = 12;
   lastPublishIMG = this.rootPublishesSite + this.lastPublishNumber + '/thumb.jpg';
   event = new EventEmitter();
   lang = 'EN';

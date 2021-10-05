@@ -46,7 +46,7 @@ PdfReaderPageRoutingModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decora
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("ion-toolbar {\n  --color: #ffffff;\n  --background: #E21F2D;\n  --ion-border-color: transparent;\n}\n\n.page-mask {\n  position: absolute;\n  display: grid;\n  grid-template-rows: 1fr;\n  grid-template-columns: 1fr 1fr;\n  height: 100%;\n  width: calc(100% - 16px);\n}\n\n.image {\n  display: flex;\n  justify-content: center;\n}\n\n.right-page-mask-e {\n  display: grid;\n  grid-template-rows: 55% 25% !important;\n  grid-template-columns: 10% 27% 26% 26% !important;\n  height: 100%;\n}\n\n.right-page-mask {\n  display: grid;\n  grid-template-rows: 63% 25%;\n  grid-template-columns: 10% 27% 26% 26%;\n  height: 100%;\n}\n\n.left-page-mask {\n  height: 100%;\n}\n\n.sub-mask-pbp {\n  display: grid;\n  grid-template-rows: 70% 15%;\n  grid-template-columns: 18% 16%;\n  height: 100%;\n}\n\n.sub-mask-promo {\n  display: grid;\n  grid-template-rows: 81% 12%;\n  grid-template-columns: 45% 16%;\n  height: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXHBkZi1yZWFkZXIucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsZ0JBQUE7RUFDQSxxQkFBQTtFQUNBLCtCQUFBO0FBQ0Y7O0FBQ0E7RUFDRSxrQkFBQTtFQUNBLGFBQUE7RUFDQSx1QkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtFQUNBLHdCQUFBO0FBRUY7O0FBQUE7RUFDRSxhQUFBO0VBQ0EsdUJBQUE7QUFHRjs7QUFEQTtFQUNFLGFBQUE7RUFDQSxzQ0FBQTtFQUNBLGlEQUFBO0VBQ0EsWUFBQTtBQUlGOztBQUZBO0VBQ0UsYUFBQTtFQUNBLDJCQUFBO0VBQ0Esc0NBQUE7RUFDQSxZQUFBO0FBS0Y7O0FBSEE7RUFDRSxZQUFBO0FBTUY7O0FBSkE7RUFDRSxhQUFBO0VBQ0EsMkJBQUE7RUFDQSw4QkFBQTtFQUNBLFlBQUE7QUFPRjs7QUFMQTtFQUNFLGFBQUE7RUFDQSwyQkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtBQVFGIiwiZmlsZSI6InBkZi1yZWFkZXIucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW9uLXRvb2xiYXIge1xyXG4gIC0tY29sb3I6ICNmZmZmZmY7XHJcbiAgLS1iYWNrZ3JvdW5kOiAjRTIxRjJEO1xyXG4gIC0taW9uLWJvcmRlci1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbn1cclxuLnBhZ2UtbWFza3tcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgZGlzcGxheTogZ3JpZDtcclxuICBncmlkLXRlbXBsYXRlLXJvd3M6IDFmcjtcclxuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmciAxZnI7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIHdpZHRoOiBjYWxjKDEwMCUgLSAxNnB4KTtcclxufVxyXG4uaW1hZ2V7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxufVxyXG4ucmlnaHQtcGFnZS1tYXNrLWV7XHJcbiAgZGlzcGxheTogZ3JpZDtcclxuICBncmlkLXRlbXBsYXRlLXJvd3M6IDU1JSAyNSUgIWltcG9ydGFudDs7XHJcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxMCUgMjclIDI2JSAyNiUgIWltcG9ydGFudDs7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG59XHJcbi5yaWdodC1wYWdlLW1hc2t7XHJcbiAgZGlzcGxheTogZ3JpZDtcclxuICBncmlkLXRlbXBsYXRlLXJvd3M6IDYzJSAyNSU7XHJcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxMCUgMjclIDI2JSAyNiU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG59XHJcbi5sZWZ0LXBhZ2UtbWFza3tcclxuICBoZWlnaHQ6IDEwMCU7XHJcbn1cclxuLnN1Yi1tYXNrLXBicHtcclxuICBkaXNwbGF5OiBncmlkO1xyXG4gIGdyaWQtdGVtcGxhdGUtcm93czogNzAlIDE1JTtcclxuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDE4JSAxNiU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG59XHJcbi5zdWItbWFzay1wcm9tb3tcclxuICBkaXNwbGF5OiBncmlkO1xyXG4gIGdyaWQtdGVtcGxhdGUtcm93czogODElIDEyJTtcclxuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDQ1JSAxNiU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG59XHJcbiJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = ("@charset \"UTF-8\";\nion-toolbar {\n  --color: #ffffff;\n  --background: #E21F2D;\n  --ion-border-color: transparent;\n}\n.page-mask {\n  position: absolute;\n  display: grid;\n  grid-template-rows: 1fr;\n  grid-template-columns: 1fr 1fr;\n  height: 100%;\n  width: calc(100% - 10px);\n  top: 0;\n  left: 0;\n}\n.image {\n  display: flex;\n  justify-content: center;\n}\n.right-page-mask-e {\n  display: grid;\n  grid-template-rows: 55% 25% !important;\n  grid-template-columns: 10% 27% 26% 26% !important;\n  height: 100%;\n}\n.right-page-mask {\n  display: grid;\n  grid-template-rows: 63% 25%;\n  grid-template-columns: 10% 27% 26% 26%;\n  height: 100%;\n  width: 100%;\n}\n.right-page-mask-9 {\n  display: grid;\n  grid-template-rows: 60% 30%;\n  grid-template-columns: 30% 40%;\n  height: 100%;\n}\n.left-page-mask {\n  height: 100%;\n  width: 100%;\n}\n.l-m {\n  height: 100%;\n  width: 100%;\n}\n.r-m {\n  height: 100%;\n  width: 100%;\n}\n.sub-mask-pbp {\n  display: grid;\n  grid-template-rows: 70% 15%;\n  grid-template-columns: 18% 16%;\n  height: 100%;\n}\n.sub-mask-promo {\n  display: grid;\n  grid-template-rows: 81% 12%;\n  grid-template-columns: 45% 16%;\n  height: 100%;\n}\n.cursor-pointer {\n  cursor: pointer;\n}\n.pbp-mask-promo-9 {\n  display: grid;\n  grid-template-rows: 38% 20%;\n  grid-template-columns: 38% 25%;\n  height: 100%;\n}\n.first-page-promo {\n  display: grid;\n  grid-auto-rows: 87% 11%;\n  grid-template-columns: 15% 27%;\n  height: 100%;\n}\n.second-page-promo {\n  display: grid;\n  grid-template-rows: 81% 12%;\n  grid-template-columns: 45% 16%;\n  height: 100%;\n}\n.left-bottom-3qr {\n  display: grid;\n  grid-template-rows: 90% 8%;\n  grid-template-columns: 4% 8.5% 8% 8%;\n  height: 100%;\n}\n.center-bottom-2qr {\n  display: grid;\n  grid-template-rows: 84% 12%;\n  grid-template-columns: 28% 15% 12% 15%;\n  height: 100%;\n}\n.left-bottom-3qr-1 {\n  display: grid;\n  grid-template-rows: 87% 10%;\n  grid-template-columns: 2% 11.5% 11.5% 11.5%;\n  height: 100%;\n}\n.right-bottom-3qr {\n  display: grid;\n  grid-template-rows: 86% 9%;\n  grid-template-columns: 50% 13% 13% 13%;\n  height: 100%;\n}\n.center-bottom-3qr {\n  display: grid;\n  grid-template-rows: 86% 10%;\n  grid-template-columns: 30% 13% 13% 13%;\n  height: 100%;\n}\n.left-bottom-1qr {\n  display: grid;\n  grid-template-rows: 80% 12%;\n  grid-template-columns: 10% 17%;\n  height: 100%;\n}\n.left-bottom-3qr-2 {\n  display: grid;\n  grid-template-rows: 87% 10%;\n  grid-template-columns: 2% 11.5% 11.5% 11.5%;\n  height: 100%;\n}\n.right-bottom-1qr {\n  display: grid;\n  grid-template-rows: 87% 11%;\n  grid-template-columns: 81% 14%;\n  height: 100%;\n}\n.left-bottom-1qr-1 {\n  display: grid;\n  grid-template-rows: 78% 10%;\n  grid-template-columns: 9% 25%;\n  height: 100%;\n}\n.rb-12-1qr {\n  display: grid;\n  grid-template-rows: 86% 8%;\n  grid-template-columns: 84% 11%;\n  height: 100%;\n}\n.lb-12-1qr {\n  display: grid;\n  grid-template-rows: 81% 7%;\n  grid-template-columns: 5% 10%;\n  height: 100%;\n}\n.lb-12-1qr-1 {\n  display: grid;\n  grid-template-rows: 84% 7%;\n  grid-template-columns: 5% 10%;\n  height: 100%;\n}\n.lb-12-1qr-2 {\n  display: grid;\n  grid-template-rows: 86% 8%;\n  grid-template-columns: 5% 10%;\n  height: 100%;\n}\n.rb-12-1qr-l {\n  display: grid;\n  grid-template-rows: 86% 8%;\n  grid-template-columns: 80% 13%;\n  height: 100%;\n}\n.rc-12-1qr {\n  display: grid;\n  grid-template-rows: 43% 10%;\n  grid-template-columns: 80% 13%;\n  height: 100%;\n}\n.lb-12-2qr {\n  display: grid;\n  grid-template-rows: 11% 7% 41% 7%;\n  grid-template-columns: 85% 9%;\n  height: 100%;\n}\n.rс-12-1qr {\n  display: grid;\n  grid-template-rows: 35% 6%;\n  grid-template-columns: 89% 9%;\n  height: 100%;\n}\n.rb-12-1qr-2 {\n  display: grid;\n  grid-template-rows: 88% 6%;\n  grid-template-columns: 87% 9%;\n  height: 100%;\n}\n.rb-12-1qr-3 {\n  display: grid;\n  grid-template-rows: 82% 11%;\n  grid-template-columns: 75% 16%;\n  height: 100%;\n}\n.lt-12-1qr {\n  display: grid;\n  grid-template-rows: 4% 12%;\n  grid-template-columns: 8% 15%;\n  height: 100%;\n}\n.rt-12-1qr {\n  display: grid;\n  grid-template-rows: 4% 12%;\n  grid-template-columns: 79% 15%;\n  height: 100%;\n}\n.rb-12-1qr-4 {\n  display: grid;\n  grid-template-rows: 83% 10%;\n  grid-template-columns: 70% 13%;\n  height: 100%;\n}\n.rb-12-3qr {\n  display: grid;\n  grid-template-rows: 63% 25%;\n  grid-template-columns: 10% 27% 26.5% 26.5%;\n  height: 100%;\n}\n.lbc-12-1q {\n  display: grid;\n  grid-template-rows: 85% 12%;\n  grid-template-columns: 22% 16%;\n  height: 100%;\n}\n.rb-12-1qr-5 {\n  display: grid;\n  grid-template-rows: 72% 10%;\n  grid-template-columns: 72% 13%;\n  height: 100%;\n}\n.lb-12-1qr-3 {\n  display: grid;\n  grid-template-rows: 87% 12%;\n  grid-template-columns: 12% 16%;\n  height: 100%;\n}\n.rb-12-1qr-6 {\n  display: grid;\n  grid-template-rows: 87% 12%;\n  grid-template-columns: 69% 16%;\n  height: 100%;\n}\n.first-page-promo-apps {\n  display: grid;\n  grid-auto-rows: 87% 11%;\n  grid-template-columns: 45% 27%;\n  height: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXHBkZi1yZWFkZXIucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGdCQUFnQjtBQUFoQjtFQUNFLGdCQUFBO0VBQ0EscUJBQUE7RUFDQSwrQkFBQTtBQUVGO0FBQUE7RUFDRSxrQkFBQTtFQUNBLGFBQUE7RUFDQSx1QkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtFQUNBLHdCQUFBO0VBQ0EsTUFBQTtFQUNBLE9BQUE7QUFHRjtBQURBO0VBQ0UsYUFBQTtFQUNBLHVCQUFBO0FBSUY7QUFGQTtFQUNFLGFBQUE7RUFDQSxzQ0FBQTtFQUNBLGlEQUFBO0VBQ0EsWUFBQTtBQUtGO0FBSEE7RUFDRSxhQUFBO0VBQ0EsMkJBQUE7RUFDQSxzQ0FBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0FBTUY7QUFKQTtFQUNFLGFBQUE7RUFDQSwyQkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtBQU9GO0FBTEE7RUFDRSxZQUFBO0VBQ0EsV0FBQTtBQVFGO0FBTkE7RUFDRSxZQUFBO0VBQ0EsV0FBQTtBQVNGO0FBUEE7RUFDRSxZQUFBO0VBQ0EsV0FBQTtBQVVGO0FBUkE7RUFDRSxhQUFBO0VBQ0EsMkJBQUE7RUFDQSw4QkFBQTtFQUNBLFlBQUE7QUFXRjtBQVRBO0VBQ0UsYUFBQTtFQUNBLDJCQUFBO0VBQ0EsOEJBQUE7RUFDQSxZQUFBO0FBWUY7QUFWQTtFQUNFLGVBQUE7QUFhRjtBQVhBO0VBQ0UsYUFBQTtFQUNBLDJCQUFBO0VBQ0EsOEJBQUE7RUFDQSxZQUFBO0FBY0Y7QUFYQTtFQUNFLGFBQUE7RUFDQSx1QkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtBQWNGO0FBWkE7RUFDRSxhQUFBO0VBQ0EsMkJBQUE7RUFDQSw4QkFBQTtFQUNBLFlBQUE7QUFlRjtBQWJBO0VBQ0UsYUFBQTtFQUNBLDBCQUFBO0VBQ0Esb0NBQUE7RUFDQSxZQUFBO0FBZ0JGO0FBZEE7RUFDRSxhQUFBO0VBQ0EsMkJBQUE7RUFDQSxzQ0FBQTtFQUNBLFlBQUE7QUFpQkY7QUFmQTtFQUNFLGFBQUE7RUFDQSwyQkFBQTtFQUNBLDJDQUFBO0VBQ0EsWUFBQTtBQWtCRjtBQWhCQTtFQUNFLGFBQUE7RUFDQSwwQkFBQTtFQUNBLHNDQUFBO0VBQ0EsWUFBQTtBQW1CRjtBQWpCQTtFQUNFLGFBQUE7RUFDQSwyQkFBQTtFQUNBLHNDQUFBO0VBQ0EsWUFBQTtBQW9CRjtBQWxCQTtFQUNFLGFBQUE7RUFDQSwyQkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtBQXFCRjtBQW5CQTtFQUNFLGFBQUE7RUFDQSwyQkFBQTtFQUNBLDJDQUFBO0VBQ0EsWUFBQTtBQXNCRjtBQXBCQTtFQUNFLGFBQUE7RUFDQSwyQkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtBQXVCRjtBQXJCQTtFQUNFLGFBQUE7RUFDQSwyQkFBQTtFQUNBLDZCQUFBO0VBQ0EsWUFBQTtBQXdCRjtBQXRCQTtFQUNFLGFBQUE7RUFDQSwwQkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtBQXlCRjtBQXZCQTtFQUNFLGFBQUE7RUFDQSwwQkFBQTtFQUNBLDZCQUFBO0VBQ0EsWUFBQTtBQTBCRjtBQXhCQTtFQUNFLGFBQUE7RUFDQSwwQkFBQTtFQUNBLDZCQUFBO0VBQ0EsWUFBQTtBQTJCRjtBQXpCQTtFQUNFLGFBQUE7RUFDQSwwQkFBQTtFQUNBLDZCQUFBO0VBQ0EsWUFBQTtBQTRCRjtBQTFCQTtFQUNFLGFBQUE7RUFDQSwwQkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtBQTZCRjtBQTNCQTtFQUNFLGFBQUE7RUFDQSwyQkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtBQThCRjtBQTVCQTtFQUNFLGFBQUE7RUFDQSxpQ0FBQTtFQUNBLDZCQUFBO0VBQ0EsWUFBQTtBQStCRjtBQTdCQTtFQUNFLGFBQUE7RUFDQSwwQkFBQTtFQUNBLDZCQUFBO0VBQ0EsWUFBQTtBQWdDRjtBQTlCQTtFQUNFLGFBQUE7RUFDQSwwQkFBQTtFQUNBLDZCQUFBO0VBQ0EsWUFBQTtBQWlDRjtBQS9CQTtFQUNFLGFBQUE7RUFDQSwyQkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtBQWtDRjtBQWhDQTtFQUNFLGFBQUE7RUFDQSwwQkFBQTtFQUNBLDZCQUFBO0VBQ0EsWUFBQTtBQW1DRjtBQWpDQTtFQUNFLGFBQUE7RUFDQSwwQkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtBQW9DRjtBQWxDQTtFQUNFLGFBQUE7RUFDQSwyQkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtBQXFDRjtBQW5DQTtFQUNFLGFBQUE7RUFDQSwyQkFBQTtFQUNBLDBDQUFBO0VBQ0EsWUFBQTtBQXNDRjtBQXBDQTtFQUNFLGFBQUE7RUFDQSwyQkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtBQXVDRjtBQXJDQTtFQUNFLGFBQUE7RUFDQSwyQkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtBQXdDRjtBQXRDQTtFQUNFLGFBQUE7RUFDQSwyQkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtBQXlDRjtBQXZDQTtFQUNFLGFBQUE7RUFDQSwyQkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtBQTBDRjtBQXhDQTtFQUNFLGFBQUE7RUFDQSx1QkFBQTtFQUNBLDhCQUFBO0VBQ0EsWUFBQTtBQTJDRiIsImZpbGUiOiJwZGYtcmVhZGVyLnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIkBjaGFyc2V0IFwiVVRGLThcIjtcbmlvbi10b29sYmFyIHtcbiAgLS1jb2xvcjogI2ZmZmZmZjtcbiAgLS1iYWNrZ3JvdW5kOiAjRTIxRjJEO1xuICAtLWlvbi1ib3JkZXItY29sb3I6IHRyYW5zcGFyZW50O1xufVxuXG4ucGFnZS1tYXNrIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBncmlkO1xuICBncmlkLXRlbXBsYXRlLXJvd3M6IDFmcjtcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnIgMWZyO1xuICBoZWlnaHQ6IDEwMCU7XG4gIHdpZHRoOiBjYWxjKDEwMCUgLSAxMHB4KTtcbiAgdG9wOiAwO1xuICBsZWZ0OiAwO1xufVxuXG4uaW1hZ2Uge1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbn1cblxuLnJpZ2h0LXBhZ2UtbWFzay1lIHtcbiAgZGlzcGxheTogZ3JpZDtcbiAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiA1NSUgMjUlICFpbXBvcnRhbnQ7XG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMTAlIDI3JSAyNiUgMjYlICFpbXBvcnRhbnQ7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLnJpZ2h0LXBhZ2UtbWFzayB7XG4gIGRpc3BsYXk6IGdyaWQ7XG4gIGdyaWQtdGVtcGxhdGUtcm93czogNjMlIDI1JTtcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxMCUgMjclIDI2JSAyNiU7XG4gIGhlaWdodDogMTAwJTtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi5yaWdodC1wYWdlLW1hc2stOSB7XG4gIGRpc3BsYXk6IGdyaWQ7XG4gIGdyaWQtdGVtcGxhdGUtcm93czogNjAlIDMwJTtcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAzMCUgNDAlO1xuICBoZWlnaHQ6IDEwMCU7XG59XG5cbi5sZWZ0LXBhZ2UtbWFzayB7XG4gIGhlaWdodDogMTAwJTtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi5sLW0ge1xuICBoZWlnaHQ6IDEwMCU7XG4gIHdpZHRoOiAxMDAlO1xufVxuXG4uci1tIHtcbiAgaGVpZ2h0OiAxMDAlO1xuICB3aWR0aDogMTAwJTtcbn1cblxuLnN1Yi1tYXNrLXBicCB7XG4gIGRpc3BsYXk6IGdyaWQ7XG4gIGdyaWQtdGVtcGxhdGUtcm93czogNzAlIDE1JTtcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxOCUgMTYlO1xuICBoZWlnaHQ6IDEwMCU7XG59XG5cbi5zdWItbWFzay1wcm9tbyB7XG4gIGRpc3BsYXk6IGdyaWQ7XG4gIGdyaWQtdGVtcGxhdGUtcm93czogODElIDEyJTtcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiA0NSUgMTYlO1xuICBoZWlnaHQ6IDEwMCU7XG59XG5cbi5jdXJzb3ItcG9pbnRlciB7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cblxuLnBicC1tYXNrLXByb21vLTkge1xuICBkaXNwbGF5OiBncmlkO1xuICBncmlkLXRlbXBsYXRlLXJvd3M6IDM4JSAyMCU7XG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMzglIDI1JTtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG4uZmlyc3QtcGFnZS1wcm9tbyB7XG4gIGRpc3BsYXk6IGdyaWQ7XG4gIGdyaWQtYXV0by1yb3dzOiA4NyUgMTElO1xuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDE1JSAyNyU7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLnNlY29uZC1wYWdlLXByb21vIHtcbiAgZGlzcGxheTogZ3JpZDtcbiAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiA4MSUgMTIlO1xuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDQ1JSAxNiU7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLmxlZnQtYm90dG9tLTNxciB7XG4gIGRpc3BsYXk6IGdyaWQ7XG4gIGdyaWQtdGVtcGxhdGUtcm93czogOTAlIDglO1xuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDQlIDguNSUgOCUgOCU7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLmNlbnRlci1ib3R0b20tMnFyIHtcbiAgZGlzcGxheTogZ3JpZDtcbiAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiA4NCUgMTIlO1xuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDI4JSAxNSUgMTIlIDE1JTtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG4ubGVmdC1ib3R0b20tM3FyLTEge1xuICBkaXNwbGF5OiBncmlkO1xuICBncmlkLXRlbXBsYXRlLXJvd3M6IDg3JSAxMCU7XG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMiUgMTEuNSUgMTEuNSUgMTEuNSU7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLnJpZ2h0LWJvdHRvbS0zcXIge1xuICBkaXNwbGF5OiBncmlkO1xuICBncmlkLXRlbXBsYXRlLXJvd3M6IDg2JSA5JTtcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiA1MCUgMTMlIDEzJSAxMyU7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLmNlbnRlci1ib3R0b20tM3FyIHtcbiAgZGlzcGxheTogZ3JpZDtcbiAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiA4NiUgMTAlO1xuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDMwJSAxMyUgMTMlIDEzJTtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG4ubGVmdC1ib3R0b20tMXFyIHtcbiAgZGlzcGxheTogZ3JpZDtcbiAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiA4MCUgMTIlO1xuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDEwJSAxNyU7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLmxlZnQtYm90dG9tLTNxci0yIHtcbiAgZGlzcGxheTogZ3JpZDtcbiAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiA4NyUgMTAlO1xuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDIlIDExLjUlIDExLjUlIDExLjUlO1xuICBoZWlnaHQ6IDEwMCU7XG59XG5cbi5yaWdodC1ib3R0b20tMXFyIHtcbiAgZGlzcGxheTogZ3JpZDtcbiAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiA4NyUgMTElO1xuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDgxJSAxNCU7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLmxlZnQtYm90dG9tLTFxci0xIHtcbiAgZGlzcGxheTogZ3JpZDtcbiAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiA3OCUgMTAlO1xuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDklIDI1JTtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG4ucmItMTItMXFyIHtcbiAgZGlzcGxheTogZ3JpZDtcbiAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiA4NiUgOCU7XG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogODQlIDExJTtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG4ubGItMTItMXFyIHtcbiAgZGlzcGxheTogZ3JpZDtcbiAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiA4MSUgNyU7XG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogNSUgMTAlO1xuICBoZWlnaHQ6IDEwMCU7XG59XG5cbi5sYi0xMi0xcXItMSB7XG4gIGRpc3BsYXk6IGdyaWQ7XG4gIGdyaWQtdGVtcGxhdGUtcm93czogODQlIDclO1xuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDUlIDEwJTtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG4ubGItMTItMXFyLTIge1xuICBkaXNwbGF5OiBncmlkO1xuICBncmlkLXRlbXBsYXRlLXJvd3M6IDg2JSA4JTtcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiA1JSAxMCU7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLnJiLTEyLTFxci1sIHtcbiAgZGlzcGxheTogZ3JpZDtcbiAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiA4NiUgOCU7XG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogODAlIDEzJTtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG4ucmMtMTItMXFyIHtcbiAgZGlzcGxheTogZ3JpZDtcbiAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiA0MyUgMTAlO1xuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDgwJSAxMyU7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLmxiLTEyLTJxciB7XG4gIGRpc3BsYXk6IGdyaWQ7XG4gIGdyaWQtdGVtcGxhdGUtcm93czogMTElIDclIDQxJSA3JTtcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiA4NSUgOSU7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLnLRgS0xMi0xcXIge1xuICBkaXNwbGF5OiBncmlkO1xuICBncmlkLXRlbXBsYXRlLXJvd3M6IDM1JSA2JTtcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiA4OSUgOSU7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLnJiLTEyLTFxci0yIHtcbiAgZGlzcGxheTogZ3JpZDtcbiAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiA4OCUgNiU7XG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogODclIDklO1xuICBoZWlnaHQ6IDEwMCU7XG59XG5cbi5yYi0xMi0xcXItMyB7XG4gIGRpc3BsYXk6IGdyaWQ7XG4gIGdyaWQtdGVtcGxhdGUtcm93czogODIlIDExJTtcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiA3NSUgMTYlO1xuICBoZWlnaHQ6IDEwMCU7XG59XG5cbi5sdC0xMi0xcXIge1xuICBkaXNwbGF5OiBncmlkO1xuICBncmlkLXRlbXBsYXRlLXJvd3M6IDQlIDEyJTtcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiA4JSAxNSU7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLnJ0LTEyLTFxciB7XG4gIGRpc3BsYXk6IGdyaWQ7XG4gIGdyaWQtdGVtcGxhdGUtcm93czogNCUgMTIlO1xuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDc5JSAxNSU7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLnJiLTEyLTFxci00IHtcbiAgZGlzcGxheTogZ3JpZDtcbiAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiA4MyUgMTAlO1xuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDcwJSAxMyU7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLnJiLTEyLTNxciB7XG4gIGRpc3BsYXk6IGdyaWQ7XG4gIGdyaWQtdGVtcGxhdGUtcm93czogNjMlIDI1JTtcbiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxMCUgMjclIDI2LjUlIDI2LjUlO1xuICBoZWlnaHQ6IDEwMCU7XG59XG5cbi5sYmMtMTItMXEge1xuICBkaXNwbGF5OiBncmlkO1xuICBncmlkLXRlbXBsYXRlLXJvd3M6IDg1JSAxMiU7XG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMjIlIDE2JTtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG4ucmItMTItMXFyLTUge1xuICBkaXNwbGF5OiBncmlkO1xuICBncmlkLXRlbXBsYXRlLXJvd3M6IDcyJSAxMCU7XG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogNzIlIDEzJTtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG4ubGItMTItMXFyLTMge1xuICBkaXNwbGF5OiBncmlkO1xuICBncmlkLXRlbXBsYXRlLXJvd3M6IDg3JSAxMiU7XG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMTIlIDE2JTtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG4ucmItMTItMXFyLTYge1xuICBkaXNwbGF5OiBncmlkO1xuICBncmlkLXRlbXBsYXRlLXJvd3M6IDg3JSAxMiU7XG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogNjklIDE2JTtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG4uZmlyc3QtcGFnZS1wcm9tby1hcHBzIHtcbiAgZGlzcGxheTogZ3JpZDtcbiAgZ3JpZC1hdXRvLXJvd3M6IDg3JSAxMSU7XG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogNDUlIDI3JTtcbiAgaGVpZ2h0OiAxMDAlO1xufSJdfQ== */");
 
 /***/ }),
 
@@ -1263,7 +1263,20 @@ __webpack_require__.r(__webpack_exports__);
 let PdfReaderPage = class PdfReaderPage {
     constructor(p) {
         this.p = p;
-        this.qr10 = [2, 3, 11, 18, 37, 44, 49, 59, 67, 74, 82, 102];
+        this.qrs = [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [3, 4, 32, 35, 87, 107, 114],
+            [2, 3, 15, 21, 44, 94, 102, 113, 117],
+            [2, 3, 11, 18, 37, 44, 49, 59, 67, 74, 82, 102],
+            [1, 2, 3, 4, 6, 8, 10, 11, 32, 42, 46, 75, 83, 103, 110, 111, 115, 125, 134, 135],
+            [1, 2, 3, 4, 5, 7, 8, 10, 11, 12, 13, 14, 15, 16, 18, 21, 22, 35, 83, 91, 96, 101, 109, 129, 136, 162]
+        ];
         this.images = [];
         this.sliderOpt = {
             zoom: {
@@ -1282,13 +1295,9 @@ let PdfReaderPage = class PdfReaderPage {
         }
         return result;
     }
-    isQR(ind) {
+    isQR(issue, ind) {
         const page = ind + 1;
-        switch (this.p.pdfReading) {
-            case 10: {
-                return this.qr10.includes(page);
-            }
-        }
+        return this.p.pdfReading === issue && this.qrs[this.p.pdfReading - 1].includes(page);
     }
     isQRE(ind) {
         const page = ind + 1;
@@ -1297,6 +1306,262 @@ let PdfReaderPage = class PdfReaderPage {
     openQr(ind, lang) {
         const page = ind + 1;
         switch (this.p.pdfReading) {
+            case 11: {
+                switch (page) {
+                    case 3: {
+                        switch (lang) {
+                            case 'ru': {
+                                window.open('https://я.tv/#/watch?video=snr24_ru', '_blank');
+                                break;
+                            }
+                            case 'cn': {
+                                window.open('https://я.tv/#/watch?video=snr24_cn', '_blank');
+                                break;
+                            }
+                            case 'en': {
+                                window.open('https://я.tv/#/watch?video=snr24_en', '_blank');
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                    case 4: {
+                        switch (lang) {
+                            case 'cn': {
+                                window.open('https://eurasian.press/#/g-cn', '_blank');
+                                break;
+                            }
+                            case 'en': {
+                                window.open('https://eurasian.press/#/g-en', '_blank');
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                    case 6: {
+                        switch (lang) {
+                            case 'ru': {
+                                window.open('https://xn--41a.tv/#/watch?video=allrum_ru', '_blank');
+                                break;
+                            }
+                            case 'cn': {
+                                window.open('https://xn--41a.tv/#/watch?video=allrum_cn', '_blank');
+                                break;
+                            }
+                            case 'en': {
+                                window.open('https://xn--41a.tv/#/watch?video=allrum_en', '_blank');
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                    case 8: {
+                        switch (lang) {
+                            case 'ru': {
+                                window.open('http://я.tv/#/watch?video=robots_ru', '_blank');
+                                break;
+                            }
+                            case 'cn': {
+                                window.open('http://я.tv/#/watch?video=robots_cn', '_blank');
+                                break;
+                            }
+                            case 'en': {
+                                window.open('http://я.tv/#/watch?video=robots_en', '_blank');
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                    case 9: {
+                        switch (lang) {
+                            case 'ru': {
+                                window.open('http://я.tv/#/watch?video=robots_ru', '_blank');
+                                break;
+                            }
+                            case 'cn': {
+                                window.open('http://я.tv/#/watch?video=robots_cn', '_blank');
+                                break;
+                            }
+                            case 'en': {
+                                window.open('http://я.tv/#/watch?video=robots_en', '_blank');
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                    case 10: {
+                        switch (lang) {
+                            case 'ru': {
+                                window.open('https://я.tv/#/watch?video=mindf_ru', '_blank');
+                                break;
+                            }
+                            case 'cn': {
+                                window.open('https://я.tv/#/watch?video=mindf_cn', '_blank');
+                                break;
+                            }
+                            case 'en': {
+                                window.open('https://я.tv/#/watch?video=mindf_en', '_blank');
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                    case 32: {
+                        switch (lang) {
+                            case 'ru': {
+                                window.open('https://я.tv/#/watch?video=kk_ru', '_blank');
+                                break;
+                            }
+                            case 'cn': {
+                                window.open('https://я.tv/#/watch?video=kk_cn', '_blank');
+                                break;
+                            }
+                            case 'en': {
+                                window.open('https://я.tv/#/watch?video=kk_en', '_blank');
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                    case 42: {
+                        switch (lang) {
+                            case 'ru': {
+                                window.open('https://я.tv/#/watch?video=ww1_ru', '_blank');
+                                break;
+                            }
+                            case 'cn': {
+                                window.open('https://я.tv/#/watch?video=ww1_cn', '_blank');
+                                break;
+                            }
+                            case 'en': {
+                                window.open('https://я.tv/#/watch?video=ww1_en', '_blank');
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                    case 46: {
+                        switch (lang) {
+                            case 'ru': {
+                                window.open('https://я.tv/#/watch?video=ww2_ru', '_blank');
+                                break;
+                            }
+                            case 'cn': {
+                                window.open('https://я.tv/#/watch?video=ww2_cn', '_blank');
+                                break;
+                            }
+                            case 'en': {
+                                window.open('https://я.tv/#/watch?video=ww2_en', '_blank');
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                    case 75: {
+                        switch (lang) {
+                            case 'ru': {
+                                window.open('https://я.tv/#/watch?video=ww3_ru', '_blank');
+                                break;
+                            }
+                            case 'cn': {
+                                window.open('https://я.tv/#/watch?video=ww3_cn', '_blank');
+                                break;
+                            }
+                            case 'en': {
+                                window.open('https://я.tv/#/watch?video=ww3_en', '_blank');
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                    case 83: {
+                        switch (lang) {
+                            case 'ru': {
+                                window.open('https://я.tv/#/watch?video=ww4_ru', '_blank');
+                                break;
+                            }
+                            case 'cn': {
+                                window.open('https://я.tv/#/watch?video=ww4_cn', '_blank');
+                                break;
+                            }
+                            case 'en': {
+                                window.open('https://я.tv/#/watch?video=ww4_en', '_blank');
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                    case 110: {
+                        switch (lang) {
+                            case 'ru': {
+                                window.open('https://я.tv/#/watch?video=ww5_ru', '_blank');
+                                break;
+                            }
+                            case 'cn': {
+                                window.open('https://я.tv/#/watch?video=ww5_cn', '_blank');
+                                break;
+                            }
+                            case 'en': {
+                                window.open('https://я.tv/#/watch?video=ww5_en', '_blank');
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                    case 111: {
+                        switch (lang) {
+                            case 'ru': {
+                                window.open('http://я.tv/#/watch?video=galanz_ru', '_blank');
+                                break;
+                            }
+                            case 'cn': {
+                                window.open('http://я.tv/#/watch?video=galanz_cn', '_blank');
+                                break;
+                            }
+                            case 'en': {
+                                window.open('http://я.tv/#/watch?video=galanz_en', '_blank');
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                    case 115: {
+                        switch (lang) {
+                            case 'ru': {
+                                window.open('https://я.tv/#/watch?video=ww6_ru', '_blank');
+                                break;
+                            }
+                            case 'cn': {
+                                window.open('https://я.tv/#/watch?video=ww6_cn', '_blank');
+                                break;
+                            }
+                            case 'en': {
+                                window.open('https://я.tv/#/watch?video=ww6_en', '_blank');
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                    case 125: {
+                        switch (lang) {
+                            case 'ru': {
+                                window.open('https://я.tv/#/watch?video=ww7_ru', '_blank');
+                                break;
+                            }
+                            case 'cn': {
+                                window.open('https://я.tv/#/watch?video=ww7_cn', '_blank');
+                                break;
+                            }
+                            case 'en': {
+                                window.open('https://я.tv/#/watch?video=ww7_en', '_blank');
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                }
+                break;
+            }
             case 10: {
                 switch (page) {
                     case 3: {
@@ -1498,8 +1763,48 @@ let PdfReaderPage = class PdfReaderPage {
     }
     hideMask(ind) {
         const page = ind + 1;
-        const e1 = this.p.pdfReading === 10 && page === 2;
-        return e1;
+        const e = [];
+        e.push(this.p.pdfReading === 11 && page === 2);
+        e.push(this.p.pdfReading === 10 && page === 2);
+        e.push(this.p.pdfReading === 9 && page === 2);
+        e.push(this.p.pdfReading === 9 && page === 117);
+        return e.some(x => x === true);
+    }
+    openQr9(ind) {
+        const page = ind + 1;
+        switch (page) {
+            case 3: {
+                window.open('http://kremlin.ru/events/president/transcripts/statements/64447/videos#', '_blank');
+                break;
+            }
+            case 15: {
+                window.open('https://youtu.be/60In5DUEXAQ', '_blank');
+                break;
+            }
+            case 21: {
+                window.open('https://xn--41a.tv/#/watch?video=voina_i_mif_21_titr_eng-00_x264.mp4', '_blank');
+                break;
+            }
+            case 44: {
+                window.open('https://www.ntv.ru/video/1969601/#ts=12', '_blank');
+                break;
+            }
+            case 94: {
+                window.open('https://youtu.be/8HZ4DnVfWYQ', '_blank');
+                break;
+            }
+            case 102: {
+                window.open('https://www.globalprice.info/?p=statistics/bigmac', '_blank');
+                break;
+            }
+            case 113: {
+                window.open('https://youtu.be/v1NBNioUzME', '_blank');
+                break;
+            }
+        }
+    }
+    openPromoQr(url) {
+        window.open(url, '_blank');
     }
 };
 PdfReaderPage.ctorParameters = () => [
@@ -1526,7 +1831,7 @@ PdfReaderPage = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-header>\n  <ion-toolbar>\n    <ion-buttons slot=\"start\">\n      <ion-menu-button></ion-menu-button>\n      <ion-back-button [text]=\"p.tr('Go Back')\" class=\"text-white\"></ion-back-button>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-header>\n<ion-content>\n  <pinch-zoom [limit-zoom]=\"10\">\n    <ion-list>\n      <ion-item class=\"image\" *ngFor=\"let img of images; let ind = index\">\n        <ion-img [src]=\"img\"></ion-img>\n        <div class=\"page-mask\" *ngIf=\"isQR(ind)\">\n          <div class=\"left-page-mask\">\n            <div class=\"sub-mask-pbp\" *ngIf=\"p.pdfReading == 10 && ind == 58\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPBP()\"></div>\n            </div>\n          </div>\n\n          <div class=\"sub-mask-promo\" *ngIf=\"p.pdfReading == 10 && (ind + 1) == 2\">\n            <div></div><div></div><div></div>\n            <div class=\"cursor-pointer\" (click)=\"openPromo()\"></div>\n          </div>\n\n          <div class=\"right-page-mask\" [class.right-page-mask-e]=\"isQRE(ind)\" *ngIf=\"!hideMask(ind)\">\n            <div></div><div></div><div></div><div></div><div></div>\n            <div class=\"cursor-pointer\" (click)=\"openQr(ind,'ru')\"></div>\n            <div class=\"cursor-pointer\" (click)=\"openQr(ind,'cn')\"></div>\n            <div class=\"cursor-pointer\" (click)=\"openQr(ind,'en')\"></div>\n          </div>\n        </div>\n      </ion-item>\n    </ion-list>\n  </pinch-zoom>\n</ion-content>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-header>\n  <ion-toolbar>\n    <ion-buttons slot=\"start\">\n      <ion-menu-button></ion-menu-button>\n      <ion-back-button [text]=\"p.tr('Go Back')\" class=\"text-white\"></ion-back-button>\n    </ion-buttons>\n  </ion-toolbar>\n</ion-header>\n<ion-content>\n  <pinch-zoom [limit-zoom]=\"10\">\n    <ion-list>\n      <ion-item class=\"image\" *ngFor=\"let img of images; let ind = index\">\n        <ion-img [src]=\"img\"></ion-img>\n        <div class=\"page-mask\" *ngIf=\"isQR(9, ind)\">\n          <div class=\"left-page-mask\">\n\n          </div>\n          <div class=\"sub-mask-promo\" *ngIf=\"(ind + 1) == 2\">\n            <div></div><div></div><div></div>\n            <div class=\"cursor-pointer\" (click)=\"openPromo()\"></div>\n          </div>\n          <div class=\"pbp-mask-promo-9\" *ngIf=\"(ind + 1) == 117\">\n            <div></div><div></div><div></div>\n            <div class=\"cursor-pointer\" (click)=\"openPBP()\"></div>\n          </div>\n          <div class=\"right-page-mask-9\" *ngIf=\"!hideMask(ind)\">\n            <div></div><div></div><div></div>\n            <div class=\"cursor-pointer\" (click)=\"openQr9(ind)\"></div>\n          </div>\n        </div>\n        <div class=\"page-mask\" *ngIf=\"isQR(10, ind)\">\n          <div class=\"left-page-mask\">\n            <div class=\"sub-mask-pbp\" *ngIf=\"ind == 58\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPBP()\"></div>\n            </div>\n          </div>\n          <div class=\"sub-mask-promo\" *ngIf=\"(ind + 1) == 2\">\n            <div></div><div></div><div></div>\n            <div class=\"cursor-pointer\" (click)=\"openPromo()\"></div>\n          </div>\n          <div class=\"right-page-mask\" [class.right-page-mask-e]=\"isQRE(ind)\" *ngIf=\"!hideMask(ind)\">\n            <div></div><div></div><div></div><div></div><div></div>\n            <div class=\"cursor-pointer\" (click)=\"openQr(ind,'ru')\"></div>\n            <div class=\"cursor-pointer\" (click)=\"openQr(ind,'cn')\"></div>\n            <div class=\"cursor-pointer\" (click)=\"openQr(ind,'en')\"></div>\n          </div>\n        </div>\n\n\n        <div class=\"page-mask\" *ngIf=\"isQR(11, ind)\">\n          <div class=\"l-m\">\n            <div class=\"first-page-promo\" *ngIf=\"(ind + 1) == 1\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromo()\"></div>\n            </div>\n            <div class=\"left-bottom-3qr-1\" *ngIf=\"(ind + 1) == 6\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'cn')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'en')\"></div>\n            </div>\n            <div class=\"center-bottom-3qr\" *ngIf=\"(ind + 1) == 8\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'cn')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'en')\"></div>\n            </div>\n            <div class=\"left-bottom-1qr\" *ngIf=\"(ind + 1) == 11\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://я.tv/#/watch?video=turk_ru')\"></div>\n            </div>\n            <div class=\"left-bottom-3qr-2\" *ngIf=\"(ind + 1) == 32\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'cn')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'en')\"></div>\n            </div>\n            <div class=\"right-bottom-3qr\" *ngIf=\"(ind + 1) == 111\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'cn')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'en')\"></div>\n            </div>\n            <div class=\"left-bottom-1qr-1\" *ngIf=\"(ind + 1) == 135\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://eurasian.press/#/ndch')\"></div>\n            </div>\n          </div>\n\n          <div class=\"r-m\">\n            <div class=\"second-page-promo\" *ngIf=\"(ind + 1) == 2\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromo()\"></div>\n            </div>\n            <div class=\"left-bottom-3qr\" *ngIf=\"(ind + 1) == 3\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'cn')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'en')\"></div>\n            </div>\n            <div class=\"center-bottom-2qr\" *ngIf=\"(ind + 1) == 4\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'cn')\"></div>\n              <div></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'en')\"></div>\n            </div>\n            <div class=\"right-page-mask\" *ngIf=\"(ind + 1) == 10\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'cn')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'en')\"></div>\n            </div>\n            <div class=\"right-page-mask\" *ngIf=\"(ind + 1) == 42\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'cn')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'en')\"></div>\n            </div>\n            <div class=\"right-page-mask\" *ngIf=\"(ind + 1) == 46\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'cn')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'en')\"></div>\n            </div>\n            <div class=\"right-page-mask\" *ngIf=\"(ind + 1) == 75\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'cn')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'en')\"></div>\n            </div>\n            <div class=\"right-page-mask\" *ngIf=\"(ind + 1) == 83\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'cn')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'en')\"></div>\n            </div>\n            <div class=\"right-bottom-1qr\" *ngIf=\"(ind + 1) == 103\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://i2.app.link/overall-aitu_product-eurasia_mag-eurasia')\"></div>\n            </div>\n            <div class=\"right-page-mask\" *ngIf=\"(ind + 1) == 110\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'cn')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'en')\"></div>\n            </div>\n            <div class=\"right-page-mask\" *ngIf=\"(ind + 1) == 115\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'cn')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'en')\"></div>\n            </div>\n            <div class=\"right-page-mask\" *ngIf=\"(ind + 1) == 125\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'cn')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openQr(ind,'en')\"></div>\n            </div>\n            <div class=\"left-bottom-1qr-1\" *ngIf=\"(ind + 1) == 134\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://forte.kz/camry75')\"></div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"page-mask\" *ngIf=\"isQR(12, ind)\">\n          <div class=\"l-m\">\n            <div class=\"first-page-promo\" *ngIf=\"(ind + 1) == 1\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromo()\"></div>\n            </div>\n            <div class=\"lb-12-1qr\" *ngIf=\"(ind + 1) == 4\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://я.tv/#/watch?video=mcis_open_day&lang=ru')\"></div>\n            </div>\n            <div class=\"rc-12-1qr\" *ngIf=\"(ind + 1) == 8\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://news.rambler.ru/science/46708613/?utm_content=news_media&utm_medium=read_more&utm_source=copylink')\"></div>\n            </div>\n            <div class=\"lb-12-1qr-1\" *ngIf=\"(ind + 1) == 11\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://yandex.ru/video/preview/?filmId=13074616915509073076&text=%D0%B2%D1%8B%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5+%D0%BB%D0%B0%D0%B2%D1%80%D0%BE%D0%B2%D0%B0+%D0%BD%D0%B0+MCIS+2021&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D_JfyjxSwWv8')\"></div>\n            </div>\n            <div class=\"lb-12-1qr-2\" *ngIf=\"(ind + 1) == 13\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://я.tv/#/watch?video=mcis_vpmo_knr&lang=ru&start=44m27s')\"></div>\n            </div>\n            <div class=\"lb-12-1qr-2\" *ngIf=\"(ind + 1) == 14\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://я.tv/#/watch?video=mcis_mo_viet&lang=ru&start=21s')\"></div>\n            </div>\n            <div class=\"lb-12-1qr-2\" *ngIf=\"(ind + 1) == 15\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://я.tv/#/watch?video=mcis_plen_zas&lang=ru&start=2m57s')\"></div>\n            </div>\n            <div class=\"lb-12-2qr\" *ngIf=\"(ind + 1) == 16\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://news.rambler.ru/troops/47150492/?utm_content=news_media&utm_medium=read_more&utm_source=copylink')\"></div>\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://news.rambler.ru/science/46708613/?utm_content=news_media&utm_medium=read_more&utm_source=copylink')\"></div>\n            </div>\n            <div class=\"rb-12-1qr-2\" *ngIf=\"(ind + 1) == 18\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://news.rambler.ru/troops/47150492/?utm_content=news_media&utm_medium=read_more&utm_source=copylink')\"></div>\n            </div>\n            <div class=\"lt-12-1qr\" *ngIf=\"(ind + 1) == 22\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://я.tv/#/watch?video=sberkz_ru&lang=ru')\"></div>\n            </div>\n            <div class=\"rb-12-3qr\" *ngIf=\"(ind + 1) == 162\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_beslan&lang=ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_beslan&lang=zh')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_beslan&lang=en')\"></div>\n            </div>\n          </div>\n\n          <div class=\"r-m\">\n            <div class=\"first-page-promo-apps\" *ngIf=\"(ind + 1) == 1\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://www.eurasian.press/#/download')\"></div>\n            </div>\n            <div class=\"second-page-promo\" *ngIf=\"(ind + 1) == 2\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromo()\"></div>\n            </div>\n            <div class=\"rb-12-1qr\" *ngIf=\"(ind + 1) == 3\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://я.tv/#/watch?video=mcis_putin_video&lang=ru')\"></div>\n            </div>\n            <div class=\"rb-12-1qr\" *ngIf=\"(ind + 1) == 5\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://я.tv/#/watch?video=mcis_vpmo_sho&lang=ru')\"></div>\n            </div>\n            <div class=\"rb-12-1qr-l\" *ngIf=\"(ind + 1) == 7\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://news.rambler.ru/troops/47150492/?utm_content=news_media&utm_medium=read_more&utm_source=copylink')\"></div>\n            </div>\n            <div class=\"rb-12-1qr\" *ngIf=\"(ind + 1) == 10\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://www.youtube.com/watch?v=mqavipNey7A&t=2666s')\"></div>\n            </div>\n            <div class=\"rb-12-1qr\" *ngIf=\"(ind + 1) == 10\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://www.youtube.com/watch?v=mqavipNey7A&t=2666s')\"></div>\n            </div>\n            <div class=\"rb-12-1qr\" *ngIf=\"(ind + 1) == 12\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://я.tv/#/watch?video=mcis_fsb_rus&lang=ru')\"></div>\n            </div>\n            <div class=\"rb-12-1qr\" *ngIf=\"(ind + 1) == 13\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://я.tv/#/watch?video=mcis_vpmo_blr&lang=ru&start=9m39s')\"></div>\n            </div>\n            <div class=\"rb-12-1qr\" *ngIf=\"(ind + 1) == 14\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://я.tv/#/watch?video=mcis_vpr_gos&lang=ru')\"></div>\n            </div>\n            <div class=\"rb-12-1qr\" *ngIf=\"(ind + 1) == 15\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://я.tv/#/watch?video=mcis_plen_zas_role&lang=ru&start=16m21s')\"></div>\n            </div>\n            <div class=\"rс-12-1qr\" *ngIf=\"(ind + 1) == 18\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://news.rambler.ru/science/46708613/?utm_content=news_media&utm_medium=read_more&utm_source=copylink')\"></div>\n            </div>\n            <div class=\"rb-12-1qr-3\" *ngIf=\"(ind + 1) == 21\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=spanf')\"></div>\n            </div>\n            <div class=\"rt-12-1qr\" *ngIf=\"(ind + 1) == 22\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://я.tv/#/watch?video=sberkz_kz&lang=ru')\"></div>\n            </div>\n            <div class=\"rb-12-1qr-4\" *ngIf=\"(ind + 1) == 35\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://я.tv/#/watch?video=wp_cn&lang=ru')\"></div>\n            </div>\n            <div class=\"rb-12-3qr\" *ngIf=\"(ind + 1) == 83\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww8&lang=ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww8&lang=zh')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww8&lang=en')\"></div>\n            </div>\n            <div class=\"lbc-12-1q\" *ngIf=\"(ind + 1) == 91\">\n              <div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://akab.kz/')\"></div>\n            </div>\n            <div class=\"rb-12-3qr\" *ngIf=\"(ind + 1) == 96\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww9&lang=ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww9&lang=zh')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww9&lang=en')\"></div>\n            </div>\n            <div class=\"rb-12-3qr\" *ngIf=\"(ind + 1) == 101\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww10&lang=ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww10&lang=zh')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww10&lang=en')\"></div>\n            </div>\n            <div class=\"rb-12-3qr\" *ngIf=\"(ind + 1) == 109\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww11&lang=ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww11&lang=zh')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww11&lang=en')\"></div>\n            </div>\n            <div class=\"rb-12-3qr\" *ngIf=\"(ind + 1) == 129\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww12&lang=ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww12&lang=zh')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww12&lang=en')\"></div>\n            </div>\n            <div class=\"rb-12-3qr\" *ngIf=\"(ind + 1) == 136\">\n              <div></div><div></div><div></div><div></div><div></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww13&lang=ru')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww13&lang=zh')\"></div>\n              <div class=\"cursor-pointer\" (click)=\"openPromoQr('https://xn--41a.tv/#/watch?video=vr_ww13&lang=en')\"></div>\n            </div>\n          </div>\n        </div>\n\n\n      </ion-item>\n    </ion-list>\n  </pinch-zoom>\n</ion-content>\n");
 
 /***/ })
 

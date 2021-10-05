@@ -26,13 +26,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /* harmony import */ var _wscmd__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./wscmd */ "8ZNU");
 /* harmony import */ var _ionic_storage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic/storage */ "e8h1");
+/* harmony import */ var _ionic_native_http_ngx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ionic-native/http/ngx */ "XSEc");
+
 
 
 
 
 let PropsService = class PropsService {
-    constructor(storage) {
+    constructor(storage, http) {
         this.storage = storage;
+        this.http = http;
         this.rootPublishesSite = 'https://data-eurasian.ru/publishes/';
         this.languages = [
             ['AR', 'اللغة العربية'],
@@ -54,13 +57,15 @@ let PropsService = class PropsService {
             [7, 157],
             [8, 137],
             [9, 129],
-            [10, 111]
+            [10, 111],
+            [11, 135],
+            [12, 163]
         ];
-        this.lastPublishNumber = 10;
+        this.lastPublishNumber = 12;
         this.userId = '';
         this.user = null;
         this.ws = null;
-        this.pdfReading = 0;
+        this.pdfReading = 12;
         this.lastPublishIMG = this.rootPublishesSite + this.lastPublishNumber + '/thumb.jpg';
         this.event = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
         this.lang = 'EN';
@@ -74,6 +79,18 @@ let PropsService = class PropsService {
                 this.lang = value;
             }
         });
+        // this.http.get('https://data-eurasian.ru/config.json', {}, {})
+        //   .then(response => {
+        //     console.log(response.data);
+        //     const jsonConfig = JSON.parse(response.data);
+        //     const lastIssue = jsonConfig.lastIssue;
+        //     if (!isNaN(lastIssue)){
+        //       this.lastPublishNumber = lastIssue;
+        //       this.lastPublishIMG = this.rootPublishesSite + this.lastPublishNumber + '/thumb.jpg';
+        //     }
+        //   })
+        //   .catch(error => {
+        //   });
     }
     setLang(lang) {
         this.storage.set('lang', lang);
@@ -293,7 +310,8 @@ let PropsService = class PropsService {
     }
 };
 PropsService.ctorParameters = () => [
-    { type: _ionic_storage__WEBPACK_IMPORTED_MODULE_3__["Storage"] }
+    { type: _ionic_storage__WEBPACK_IMPORTED_MODULE_3__["Storage"] },
+    { type: _ionic_native_http_ngx__WEBPACK_IMPORTED_MODULE_4__["HTTP"] }
 ];
 PropsService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
@@ -436,6 +454,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "Sy1n");
 /* harmony import */ var _ionic_storage__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ionic/storage */ "e8h1");
+/* harmony import */ var _ionic_native_http_ngx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ionic-native/http/ngx */ "XSEc");
+
 
 
 
@@ -451,7 +471,7 @@ AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         declarations: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]],
         entryComponents: [],
         imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["BrowserModule"], _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["IonicModule"].forRoot(), _app_routing_module__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"], _ionic_storage__WEBPACK_IMPORTED_MODULE_7__["IonicStorageModule"].forRoot()],
-        providers: [{ provide: _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouteReuseStrategy"], useClass: _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["IonicRouteStrategy"] }],
+        providers: [{ provide: _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouteReuseStrategy"], useClass: _ionic_angular__WEBPACK_IMPORTED_MODULE_4__["IonicRouteStrategy"] }, _ionic_native_http_ngx__WEBPACK_IMPORTED_MODULE_8__["HTTP"]],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]],
     })
 ], AppModule);

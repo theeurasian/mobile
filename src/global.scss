@@ -1,0 +1,100 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+.dc{
+  text-align: center;
+}
+.cx{
+  display: flex;
+  justify-content: center;
+}
+.cy{
+  display: flex;
+  align-items: center;
+}
+.cyy{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+@font-face {
+  font-family: 'ba';
+  src: url('/assets/book_antiqua.ttf') format('regular');
+}
+.font{
+  font-family: ba, serif;
+}
+.bold{
+  font-weight: 600;
+}
+.eurasian-color{
+  background-color: #E21F2D;
+}
+.eurasian-text-color{
+  color: #E21F2D;
+}
+.text-large{
+  font-size: 1.5em;
+}
+.full-height{
+  height: 100%;
+}
+.text-white{
+  color: white;
+}
+.my-4{
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+.my-1{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.font-small{
+  font-size: 14px;
+}
+.my-3{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.my-2{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.my-1-5{
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.lang{
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: flex;
+}
+.flag-border{
+
+}

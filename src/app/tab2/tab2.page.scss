@@ -1,0 +1,20 @@
+ion-toolbar {
+  --color: #ffffff;
+  --background: #E21F2D;
+  --ion-border-color: transparent;
+}
+.img-height{
+
+}
+ion-card{
+  //background-color: #e2dcdc;
+  background-color: rgba(0,0,0,0.2);
+}
+.journals-row{
+  display: flex;
+  justify-content: center;
+}
+.journals-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

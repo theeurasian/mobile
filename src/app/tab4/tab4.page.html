@@ -1,0 +1,47 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="dc font text-large">
+      The Eurasian
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="full-height cyy" *ngIf="props.userId === ''">
+    <div class="cx my-1">
+      <h3>ВЫ НЕ АВТОРИЗОВАНЫ</h3>
+    </div>
+    <div class="cx my-1">
+      <ion-button class="bold eurasian-color" color="none" size="large" (click)="login()">ВОЙТИ</ion-button>
+    </div>
+    <div class="cx my-1">
+      <h1>ИЛИ</h1>
+    </div>
+    <div class="cx my-1">
+      <ion-button class="bold eurasian-color" color="none" size="large" (click)="reg()">ЗАРЕГИСТРИРОВАТЬСЯ</ion-button>
+    </div>
+  </div>
+  <div class="full-height cyy" *ngIf="props.userId !== ''">
+    <div class="cx">
+      <h2>Добро пожаловать,</h2>
+    </div>
+    <div class="cx eurasian-text-color">
+      <h1 class="bold">{{props.getUserName()}}</h1>
+    </div>
+    <div class="cx my-1">
+      <h2>{{props.getUserEmail()}}</h2>
+    </div>
+    <div class="cx my-1 ion-margin ion-text-center bold ion-padding-top">
+      Вы можете совершать покупки и просматривать приобретённые вами журналы "The Eurasian" в разделе "Выпуски".
+    </div>
+    <div class="cx my-1 ion-margin ion-text-center bold ion-padding-top">
+      Всегда доступная для чтения последняя версия журнала расположена на странице "Журнал".
+    </div>
+    <div class="cx my-1 ion-margin ion-text-center bold ion-padding-top">
+      Если у вас остались вопросы или вы желаете связаться с нами перейдите во вкладку "Контакты".
+    </div>
+    <div class="cx my-1">
+      <ion-button class="bold eurasian-color" color="none" size="large" (click)="exit()">ВЫЙТИ</ion-button>
+    </div>
+  </div>
+</ion-content>

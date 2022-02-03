@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="dc font text-large">
+      The Eurasian
+    </ion-title>
+    <div class="lang">
+      <ion-select (ionChange)="p.setLang(p.lang)" [selectedText]="p.getShortLangName()" [(ngModel)]="p.lang" [okText]="p.tr('OK')" [cancelText]="p.tr('CANCEL')">
+        <ion-select-option *ngFor="let lang of p.languages" [value]="lang[0]">{{lang[1]}}</ion-select-option>
+      </ion-select>
+    </div>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <div class="full-height cy cx">
+    <ion-card (click)="openLatestPublish()">
+      <ion-card-header>
+        <ion-card-title class="ion-text-center bold">{{p.tr('Issue')}} № {{p.lastPublishNumber}}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-img class="img-height" [src]="p.lastPublishIMG"></ion-img>
+        <div class="cx ion-margin">
+          <ion-button class="bold eurasian-color" color="none" size="large">{{p.tr('READ')}}</ion-button>
+        </div>
+        <div class="ion-text-center bold">{{p.tr('click here to read')}}</div>
+        <div class="ion-text-center bold">{{p.tr('new magazine issue')}}</div>
+        <div class="ion-text-center bold">The Eurasian</div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

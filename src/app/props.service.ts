@@ -11,8 +11,21 @@ import {HTTP} from '@ionic-native/http/ngx';
 })
 export class PropsService {
   constructor(private storage: Storage, private http: HTTP) {
+    this.http.get('https://eurasian.press/publishes/config.json', {}, {})
+      .then(response => {
+        console.log(response.data);
+        const jsonConfig = JSON.parse(response.data);
+        const lastIssue = jsonConfig.lastIssue;
+        if (!isNaN(lastIssue)){
+          this.lastPublishNumber = lastIssue;
+          this.lastPublishIMG = this.rootPublishesSite + this.lastPublishNumber + '/thumb.jpg';
+        }
+      })
+      .catch(error => {
+      });
   }
-  public rootPublishesSite = 'https://data-eurasian.ru/publishes/';
+  //public rootPublishesSite = 'https://data-eurasian.ru/publishes/';
+  public rootPublishesSite = 'https://eurasian.press/publishes/';
   public languages = [
     ['AR', 'اللغة العربية'],
     ['ZH', '汉语'],
@@ -38,11 +51,11 @@ export class PropsService {
     [12, 163],
     [13, 99]
   ];
-  lastPublishNumber = 13;
+  lastPublishNumber = 14;
   userId = '';
   user: User = null;
   ws: WebsocketService = null;
-  pdfReading = 13;
+  pdfReading = 14;
   lastPublishIMG = this.rootPublishesSite + this.lastPublishNumber + '/thumb.jpg';
   event = new EventEmitter();
   lang = 'EN';
@@ -55,18 +68,6 @@ export class PropsService {
         this.lang = value;
       }
     });
-    // this.http.get('https://data-eurasian.ru/config.json', {}, {})
-    //   .then(response => {
-    //     console.log(response.data);
-    //     const jsonConfig = JSON.parse(response.data);
-    //     const lastIssue = jsonConfig.lastIssue;
-    //     if (!isNaN(lastIssue)){
-    //       this.lastPublishNumber = lastIssue;
-    //       this.lastPublishIMG = this.rootPublishesSite + this.lastPublishNumber + '/thumb.jpg';
-    //     }
-    //   })
-    //   .catch(error => {
-    //   });
   }
   setLang(lang) {
     this.storage.set('lang', lang);

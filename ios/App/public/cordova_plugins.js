@@ -18,6 +18,15 @@
         ]
         },
       {
+          "id": "cordova-plugin-document-viewer.SitewaertsDocumentViewer",
+          "file": "plugins/cordova-plugin-document-viewer/www/sitewaertsdocumentviewer.js",
+          "pluginId": "cordova-plugin-document-viewer",
+        "clobbers": [
+          "cordova.plugins.SitewaertsDocumentViewer",
+          "SitewaertsDocumentViewer"
+        ]
+        },
+      {
           "id": "cordova-sqlite-storage.SQLitePlugin",
           "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
           "pluginId": "cordova-sqlite-storage",
@@ -268,6 +277,7 @@
     // TOP OF METADATA
     {
       "cordova-plugin-advanced-http": "3.1.0",
+      "cordova-plugin-document-viewer": "1.0.0",
       "cordova-plugin-file": "6.0.2",
       "cordova-sqlite-storage": "5.1.0",
       "cordova-plugin-device": "2.0.2"

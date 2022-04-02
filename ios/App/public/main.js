@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Redzor\source\repos\eurasian\mobile\android\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! D:\WORK\theeurasian\mobile\android\src\main.ts */"zUnb");
 
 
 /***/ }),
@@ -36,7 +36,8 @@ let PropsService = class PropsService {
     constructor(storage, http) {
         this.storage = storage;
         this.http = http;
-        this.rootPublishesSite = 'https://data-eurasian.ru/publishes/';
+        //public rootPublishesSite = 'https://data-eurasian.ru/publishes/';
+        this.rootPublishesSite = 'https://eurasian.press/publishes/';
         this.languages = [
             ['AR', 'اللغة العربية'],
             ['ZH', '汉语'],
@@ -59,16 +60,29 @@ let PropsService = class PropsService {
             [9, 129],
             [10, 111],
             [11, 135],
-            [12, 163]
+            [12, 163],
+            [13, 99]
         ];
-        this.lastPublishNumber = 12;
+        this.lastPublishNumber = 14;
         this.userId = '';
         this.user = null;
         this.ws = null;
-        this.pdfReading = 12;
+        this.pdfReading = 14;
         this.lastPublishIMG = this.rootPublishesSite + this.lastPublishNumber + '/thumb.jpg';
         this.event = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
         this.lang = 'EN';
+        this.http.get('https://eurasian.press/publishes/config.json', {}, {})
+            .then(response => {
+            console.log(response.data);
+            const jsonConfig = JSON.parse(response.data);
+            const lastIssue = jsonConfig.lastIssue;
+            if (!isNaN(lastIssue)) {
+                this.lastPublishNumber = lastIssue;
+                this.lastPublishIMG = this.rootPublishesSite + this.lastPublishNumber + '/thumb.jpg';
+            }
+        })
+            .catch(error => {
+        });
     }
     getShortLangName() {
         return this.lang;
@@ -79,18 +93,6 @@ let PropsService = class PropsService {
                 this.lang = value;
             }
         });
-        // this.http.get('https://data-eurasian.ru/config.json', {}, {})
-        //   .then(response => {
-        //     console.log(response.data);
-        //     const jsonConfig = JSON.parse(response.data);
-        //     const lastIssue = jsonConfig.lastIssue;
-        //     if (!isNaN(lastIssue)){
-        //       this.lastPublishNumber = lastIssue;
-        //       this.lastPublishIMG = this.rootPublishesSite + this.lastPublishNumber + '/thumb.jpg';
-        //     }
-        //   })
-        //   .catch(error => {
-        //   });
     }
     setLang(lang) {
         this.storage.set('lang', lang);

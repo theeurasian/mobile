@@ -41,8 +41,14 @@ let Tab2Page = class Tab2Page {
         this.nav = nav;
     }
     openPublish(publish) {
-        this.p.pdfReading = publish;
-        this.nav.navigateForward('/pdf-reader');
+        if (publish >= 14) {
+            console.log(this.p.rootPublishesSite + publish + '/ru-mobile.pdf');
+            window.open(this.p.rootPublishesSite + publish + '/ru-mobile.pdf');
+        }
+        else {
+            this.p.pdfReading = publish;
+            this.nav.navigateForward('/pdf-reader');
+        }
     }
     getPublishes() {
         const res = [];
